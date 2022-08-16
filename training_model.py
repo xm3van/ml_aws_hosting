@@ -86,5 +86,5 @@ acc_randomforest = accuracy_score(y_pred,y_val)
 
 
 # save model 
-pickle.dump(randomforest, open('titanichhh_model.sav', 'wb'))
+pickle.dump(randomforest, open('titanic_model.sav', 'wb'))
 
